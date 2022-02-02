@@ -1,0 +1,21 @@
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;   
+    background-color: green;  
+}
+
+.circulo-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.circulo:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+.imagen-container{
+    background-image: url(https://via.placeholder.com/600);
+    background-repeat: no-repeat;
+}
